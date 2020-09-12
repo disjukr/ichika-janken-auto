@@ -4,7 +4,7 @@
 
 대응하는 해금 이벤트는 다음과 같습니다:
 
-- 이치카 가위바위보
+- ~~이치카 가위바위보~~ (이벤트 종료)
 - 노노 러쉬 카드뒤집기
 
 스탬프만 모아줍니다. 해금은 직접 진행해야 합니다.
@@ -56,7 +56,25 @@ E_AMUSEMENT_PW
 
 ### actions
 
-자동 가위바위보는 매일 오전 10시 5분, 오후 3시 5분, 오후 8시 5분에 실행됩니다.
+Fork 된 저장소는 기본적으로 actions 기능이 꺼져 있습니다.
+
+!["I understand my workflows, go ahead and enable them"을 눌러 actions 기능을 활성화합니다.](./doc/image/4a.png)
+
+같은 이유로 workflow도 자동 등록되지 않으며, 등록하기 위해서는 파일에 변경사항을 만들어야 합니다.
+
+![먼저 ".github/workflows" 폴더를 선택한 다음](./doc/image/4b.png)
+
+!["nono-rush.yml" 파일에 들어가 주세요.](./doc/image/4c.png)
+
+(이벤트에 따라 파일 이름이 다를 수 있습니다.)
+
+!["Edit This File" 버튼을 눌러 파일을 편집합니다.](./doc/image/4d.png)
+
+![파일 맨 끝에 "#"을 입력하고, 오른쪽 위 "Start commit"을 누르고, 팝업창이 나오면 "Commit changes"를 누릅니다.](./doc/image/4e.png)
+
+(`#` 기호는 주석을 의미합니다.)
+
+~~자동 가위바위보는 매일 오전 10시 5분, 오후 3시 5분, 오후 8시 5분에 실행됩니다.~~ (이벤트 종료)
 
 자동 카드뒤집기는 매일 오후 3시 5분에 실행됩니다.
 
@@ -79,3 +97,5 @@ E_AMUSEMENT_PW
     - typescript 버전으로 포팅
     - github actions 적용
     - 비전문가용 사용법 문서작성
+- [dev.OBiN.kr](https://twitter.com/devOBiNkr)
+    - 사용법 문서 갱신 (다중 이벤트 지원 관련)
